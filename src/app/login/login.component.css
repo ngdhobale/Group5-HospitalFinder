@@ -1,0 +1,15 @@
+@import "../../assets/css/bootstrap.css";
+
+@import "../../assets/css/zoomslider.css";
+@import "../../assets/css/component.css";
+@import "../../assets/css/light-carousel.css";
+#demo1{
+    background-image: url("../../assets/images/1.jpg");
+}
+#demo-1{
+    min-height: 10px!important;
+}
+.invalid-feedback{
+    color:red;
+}
+@import "../../assets/css/style.css";

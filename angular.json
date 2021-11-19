@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "cbae21a3-ed1b-4d8a-ae8e-91eca4b3bd96"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -94,9 +97,27 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/component.css",
+              "src/assets/css/font-awesome.min.css",
+              "src/assets/css/jqSlide.css",
+              "src/assets/css/jquery-ui1.css",
+              "src/assets/css/light-carousel.css",
+              "src/assets/css/owl.carousel.css",
+              "src/assets/css/recommend.css",
+              "src/assets/css/style.css",
+              "src/assets/css/zoomslider.css",
+              "src/assets/css/tagin.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/jquery.flexisel.js",
+              "src/assets/js/jquery.zoomslider.min.js",
+              "src/assets/js/jquery-1.11.1.min.js",
+              "src/assets/js/jquery-1.11.1.min.js",
+              "src/assets/js/tagin.js"
+            ]
           }
         }
       }
